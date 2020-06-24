@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Print Labels</title>
+    <style>
+      .container {
+        margin-left: 10%;
+        margin-right: 10%;
+      }
+
+      canvas {
+        border: 1px solid;
+      }
+    </style>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <div class='container'>
+      <h1>Shop Label Maker</h1>
+      <p>Text: </p>
+      <textarea id="labelText"></textarea><br>
+      <button id="clear">Clear</button>
+      <canvas id="label" width="350" height="200"></canvas>
+      <br>
+      <button id="submit">Submit</button>
+      <hr>
+      <h2>Suggestion Box</h2>
+      <p>How can this be made better?</p><br>
+      <textarea id="suggestText"></textarea><br>
+      <button id="suggest">Suggest</button>
+      <hr>
+      <h2>Changelog:</h2>
+      <iframe src="/changelog"></iframe>
+      <script src="http://cdnjs.cloudflare.com/ajax/libs/fabric.js/3.4.0/fabric.min.js"></script>
+      <script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
+      <script src="/js/app.js"></script>
+    </div>
+  </body>
+</html>

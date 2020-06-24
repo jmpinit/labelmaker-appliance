@@ -1,0 +1,12 @@
+{
+  "name": "label-app",
+  "version": "1.0.0",
+  "description": "Web app for quick label printing",
+  "main": "index.js",
+  "author": "Owen Trueblood",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "printer": "^0.2.2"
+  }
+}
